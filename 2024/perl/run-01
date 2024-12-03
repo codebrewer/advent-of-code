@@ -1,0 +1,10 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings FATAL => 'all';
+
+use AdventOfCode::Day01 qw(part_1 part_2);
+use AdventOfCode::Util 'slurp_input';
+
+printf "Part 1 : %d\n", part_1(slurp_input('./input-01.txt'));
+printf "Part 2 : %d\n", part_2(slurp_input('./input-01.txt'));
